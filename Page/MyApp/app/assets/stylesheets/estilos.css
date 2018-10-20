@@ -1,0 +1,79 @@
+header {
+	background:#EFF5FB;
+	color:#fff;
+}
+
+.main{
+    background:#f2f2f2;
+    color:#fff;
+}
+aside{
+    background:#000000;
+    color:#fff;
+}
+
+footer{
+    background:#26BFC1;
+    color:#fff;
+}﻿
+
+.capitalLetter
+{
+   float:left;
+   color:black;
+   background:white;
+   border:1px solid #999999;
+   font-size:80px;
+   line-height:60px;
+   padding:2px;
+   font-family:times;
+   margin-right: 5px;
+}
+	
+.flex-parent{
+  display: -ms-flex;
+  display: -webkit-flex;
+  display: flex;
+}
+ 
+.flex-child{
+  display: -ms-flex;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.imgHome{
+    border:0; width:150px; height:100px; 
+}
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+  }
+  
+  /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+  .row.content {height: 450px}
+  
+  /* Set gray background color and 100% height */
+  .sidenav {
+    padding-top: 20px;
+    background-color: #f1f1f1;
+    height: 100%;
+  }
+  
+  /* Set black background color, white text and some padding */
+  footer {
+    background-color: #555;
+    color: white;
+    padding: 15px;
+  }
+  
+  /* On small screens, set height to 'auto' for sidenav and grid */
+  @media screen and (max-width: 767px) {
+    .sidenav {
+      height: auto;
+      padding: 15px;
+    }
+    .row.content {height:auto;} 
+  }
+
